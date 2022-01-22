@@ -6,3 +6,13 @@
     justify-content: space-between;
     gap: 18px;
 }
+
+@media screen and (max-width: 767px) {
+    .footer__links {
+        display: block;
+        margin-top: 64px;
+    }
+    .footer__link:nth-of-type(4) {
+        margin-bottom: 0;
+    }
+}

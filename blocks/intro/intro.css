@@ -2,20 +2,21 @@
     color: #FFFFFF;
     max-width: 690px;
     min-height: 429px;
-    margin-left: 95px;
-    margin-right: 495px;
+    margin-top: 118px;
+    margin-left: 47px;
 }
 
 @media screen and (max-width: 1279px) {
     .intro {
-        padding-left: 48px;
+        margin-left: 48px;
+        margin-right: 286px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .intro {
-        width: calc(100% - 24px*2);
-        margin: 88px auto 0;
+        max-width: 720px;
+        margin: 88px 24px 0;
     }
 }
 
@@ -23,6 +24,6 @@
     .intro {
         padding: 0;
         width: calc(100% - 16px*2);
-        margin-top: 64px;
+        margin: 64px auto 0;
     }
 }
