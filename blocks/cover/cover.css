@@ -12,19 +12,15 @@
     position: absolute;
 }
 
-.cover:hover::before {
-    opacity: 0.8;
-}
-
 @media screen and (max-width: 1279px) {
     .cover {
-        min-height: 600px;
+        min-height: 640px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover {
-        min-height: 440px;
+        min-height: 480px;
         margin-top: 90px;
         margin-bottom: 88px;
     }
