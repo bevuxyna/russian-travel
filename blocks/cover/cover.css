@@ -4,14 +4,6 @@
     margin: 92px auto 92px;
 }
 
-.cover::before {
-    content: '';
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    transition: .3s opacity;
-    position: absolute;
-}
-
 @media screen and (max-width: 1279px) {
     .cover {
         min-height: 640px;
